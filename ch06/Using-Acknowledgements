@@ -1,0 +1,9 @@
+To use it:
+
+Create a 'licenses' directory under your project
+Put script into that directory
+Put each license into that directory, one per file, with filenames that end .license
+Perform any necessary reformatting on the licenses. (eg. remove extra spaces at the beginning of lines, ensure that there are no line breaks mid-paragraph). There should be a blank line in-between each paragraph
+Change to licenses directory & run the script
+Edit your settings bundle Root.plist to include a child section called 'Acknowledgements'
+

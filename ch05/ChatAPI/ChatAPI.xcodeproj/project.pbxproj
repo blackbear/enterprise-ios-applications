@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADCFF3B13C1328200A9AC02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADCFF3A13C1328200A9AC02 /* Foundation.framework */; };
+		1ADCFF4613C1328200A9AC02 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADCFF4513C1328200A9AC02 /* SenTestingKit.framework */; };
+		1ADCFF4813C1328200A9AC02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADCFF4713C1328200A9AC02 /* UIKit.framework */; };
+		1ADCFF4913C1328200A9AC02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADCFF3A13C1328200A9AC02 /* Foundation.framework */; };
+		1ADCFF4B13C1328200A9AC02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADCFF4A13C1328200A9AC02 /* CoreGraphics.framework */; };
+		1ADCFF4E13C1328200A9AC02 /* libChatAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADCFF3713C1328200A9AC02 /* libChatAPI.a */; };
+		1ADCFF5413C1328200A9AC02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADCFF5213C1328200A9AC02 /* InfoPlist.strings */; };
+		1ADCFF5613C1328200A9AC02 /* ChatAPITests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1ADCFF5513C1328200A9AC02 /* ChatAPITests.h */; };
+		1ADCFF5813C1328200A9AC02 /* ChatAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCFF5713C1328200A9AC02 /* ChatAPITests.m */; };
+		1ADCFF7813C1392700A9AC02 /* TwitterAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADCFF7613C1392700A9AC02 /* TwitterAPI.h */; };
+		1ADCFF7913C1392700A9AC02 /* TwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCFF7713C1392700A9AC02 /* TwitterAPI.m */; };
+		1ADCFF8513C1506E00A9AC02 /* GoogleTalkAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ADCFF8313C1506E00A9AC02 /* GoogleTalkAPI.h */; };
+		1ADCFF8613C1506E00A9AC02 /* GoogleTalkAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCFF8413C1506E00A9AC02 /* GoogleTalkAPI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ADCFF4C13C1328200A9AC02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADCFF2E13C1328200A9AC02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADCFF3613C1328200A9AC02;
+			remoteInfo = ChatAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ADCFF3713C1328200A9AC02 /* libChatAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChatAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADCFF3A13C1328200A9AC02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1ADCFF3E13C1328200A9AC02 /* ChatAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatAPI-Prefix.pch"; sourceTree = "<group>"; };
+		1ADCFF4413C1328200A9AC02 /* ChatAPITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatAPITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADCFF4513C1328200A9AC02 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1ADCFF4713C1328200A9AC02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1ADCFF4A13C1328200A9AC02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1ADCFF5113C1328200A9AC02 /* ChatAPITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChatAPITests-Info.plist"; sourceTree = "<group>"; };
+		1ADCFF5313C1328200A9AC02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1ADCFF5513C1328200A9AC02 /* ChatAPITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatAPITests.h; sourceTree = "<group>"; };
+		1ADCFF5713C1328200A9AC02 /* ChatAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatAPITests.m; sourceTree = "<group>"; };
+		1ADCFF7613C1392700A9AC02 /* TwitterAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterAPI.h; path = ../../BuggyWhipChat/BuggyWhipChat/TwitterAPI.h; sourceTree = "<group>"; };
+		1ADCFF7713C1392700A9AC02 /* TwitterAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitterAPI.m; path = ../../BuggyWhipChat/BuggyWhipChat/TwitterAPI.m; sourceTree = "<group>"; };
+		1ADCFF8313C1506E00A9AC02 /* GoogleTalkAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleTalkAPI.h; sourceTree = "<group>"; };
+		1ADCFF8413C1506E00A9AC02 /* GoogleTalkAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleTalkAPI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ADCFF3413C1328200A9AC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADCFF3B13C1328200A9AC02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADCFF4013C1328200A9AC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADCFF4613C1328200A9AC02 /* SenTestingKit.framework in Frameworks */,
+				1ADCFF4813C1328200A9AC02 /* UIKit.framework in Frameworks */,
+				1ADCFF4913C1328200A9AC02 /* Foundation.framework in Frameworks */,
+				1ADCFF4B13C1328200A9AC02 /* CoreGraphics.framework in Frameworks */,
+				1ADCFF4E13C1328200A9AC02 /* libChatAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ADCFF2C13C1328200A9AC02 = {
+			isa = PBXGroup;
+			children = (
+				1ADCFF3C13C1328200A9AC02 /* ChatAPI */,
+				1ADCFF4F13C1328200A9AC02 /* ChatAPITests */,
+				1ADCFF3913C1328200A9AC02 /* Frameworks */,
+				1ADCFF3813C1328200A9AC02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ADCFF3813C1328200A9AC02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADCFF3713C1328200A9AC02 /* libChatAPI.a */,
+				1ADCFF4413C1328200A9AC02 /* ChatAPITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ADCFF3913C1328200A9AC02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ADCFF3A13C1328200A9AC02 /* Foundation.framework */,
+				1ADCFF4513C1328200A9AC02 /* SenTestingKit.framework */,
+				1ADCFF4713C1328200A9AC02 /* UIKit.framework */,
+				1ADCFF4A13C1328200A9AC02 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ADCFF3C13C1328200A9AC02 /* ChatAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1ADCFF7613C1392700A9AC02 /* TwitterAPI.h */,
+				1ADCFF7713C1392700A9AC02 /* TwitterAPI.m */,
+				1ADCFF3D13C1328200A9AC02 /* Supporting Files */,
+				1ADCFF8313C1506E00A9AC02 /* GoogleTalkAPI.h */,
+				1ADCFF8413C1506E00A9AC02 /* GoogleTalkAPI.m */,
+			);
+			path = ChatAPI;
+			sourceTree = "<group>";
+		};
+		1ADCFF3D13C1328200A9AC02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ADCFF3E13C1328200A9AC02 /* ChatAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ADCFF4F13C1328200A9AC02 /* ChatAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				1ADCFF5513C1328200A9AC02 /* ChatAPITests.h */,
+				1ADCFF5713C1328200A9AC02 /* ChatAPITests.m */,
+				1ADCFF5013C1328200A9AC02 /* Supporting Files */,
+			);
+			path = ChatAPITests;
+			sourceTree = "<group>";
+		};
+		1ADCFF5013C1328200A9AC02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ADCFF5113C1328200A9AC02 /* ChatAPITests-Info.plist */,
+				1ADCFF5213C1328200A9AC02 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1ADCFF3513C1328200A9AC02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADCFF7813C1392700A9AC02 /* TwitterAPI.h in Headers */,
+				1ADCFF8513C1506E00A9AC02 /* GoogleTalkAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1ADCFF3613C1328200A9AC02 /* ChatAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADCFF5B13C1328200A9AC02 /* Build configuration list for PBXNativeTarget "ChatAPI" */;
+			buildPhases = (
+				1ADCFF3313C1328200A9AC02 /* Sources */,
+				1ADCFF3413C1328200A9AC02 /* Frameworks */,
+				1ADCFF3513C1328200A9AC02 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatAPI;
+			productName = ChatAPI;
+			productReference = 1ADCFF3713C1328200A9AC02 /* libChatAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1ADCFF4313C1328200A9AC02 /* ChatAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADCFF5E13C1328200A9AC02 /* Build configuration list for PBXNativeTarget "ChatAPITests" */;
+			buildPhases = (
+				1ADCFF3F13C1328200A9AC02 /* Sources */,
+				1ADCFF4013C1328200A9AC02 /* Frameworks */,
+				1ADCFF4113C1328200A9AC02 /* Resources */,
+				1ADCFF4213C1328200A9AC02 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADCFF4D13C1328200A9AC02 /* PBXTargetDependency */,
+			);
+			name = ChatAPITests;
+			productName = ChatAPITests;
+			productReference = 1ADCFF4413C1328200A9AC02 /* ChatAPITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ADCFF2E13C1328200A9AC02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1ADCFF3113C1328200A9AC02 /* Build configuration list for PBXProject "ChatAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1ADCFF2C13C1328200A9AC02;
+			productRefGroup = 1ADCFF3813C1328200A9AC02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ADCFF3613C1328200A9AC02 /* ChatAPI */,
+				1ADCFF4313C1328200A9AC02 /* ChatAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ADCFF4113C1328200A9AC02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADCFF5413C1328200A9AC02 /* InfoPlist.strings in Resources */,
+				1ADCFF5613C1328200A9AC02 /* ChatAPITests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ADCFF4213C1328200A9AC02 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ADCFF3313C1328200A9AC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADCFF7913C1392700A9AC02 /* TwitterAPI.m in Sources */,
+				1ADCFF8613C1506E00A9AC02 /* GoogleTalkAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADCFF3F13C1328200A9AC02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADCFF5813C1328200A9AC02 /* ChatAPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ADCFF4D13C1328200A9AC02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ADCFF3613C1328200A9AC02 /* ChatAPI */;
+			targetProxy = 1ADCFF4C13C1328200A9AC02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ADCFF5213C1328200A9AC02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADCFF5313C1328200A9AC02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ADCFF5913C1328200A9AC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1ADCFF5A13C1328200A9AC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ADCFF5C13C1328200A9AC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ChatAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChatAPI/ChatAPI-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1ADCFF5D13C1328200A9AC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ChatAPI.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChatAPI/ChatAPI-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1ADCFF5F13C1328200A9AC02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChatAPI/ChatAPI-Prefix.pch";
+				INFOPLIST_FILE = "ChatAPITests/ChatAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1ADCFF6013C1328200A9AC02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChatAPI/ChatAPI-Prefix.pch";
+				INFOPLIST_FILE = "ChatAPITests/ChatAPITests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ADCFF3113C1328200A9AC02 /* Build configuration list for PBXProject "ChatAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADCFF5913C1328200A9AC02 /* Debug */,
+				1ADCFF5A13C1328200A9AC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADCFF5B13C1328200A9AC02 /* Build configuration list for PBXNativeTarget "ChatAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADCFF5C13C1328200A9AC02 /* Debug */,
+				1ADCFF5D13C1328200A9AC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADCFF5E13C1328200A9AC02 /* Build configuration list for PBXNativeTarget "ChatAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADCFF5F13C1328200A9AC02 /* Debug */,
+				1ADCFF6013C1328200A9AC02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ADCFF2E13C1328200A9AC02 /* Project object */;
+}

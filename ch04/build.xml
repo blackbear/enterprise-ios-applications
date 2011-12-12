@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="Buggy Whip Builder" default="debugbuild" basedir=".">
+   	<macrodef name="xcodebuild">
+		<attribute name="workspace"/>
+		<attribute name="scheme"/>
+		<attribute name="action" default="build"/>
+		<sequential>
+	      <echo message="Running xcodebuild using workspace '@{workspace}', scheme '@{scheme}', action '@{action}'"/>
+		  <exec executable="/Developer/usr/bin/xcodebuild" os="Mac OS X">
+			<arg value="-workspace"/>
+			<arg value="@{workspace}"/>
+			<arg value="-scheme"/>
+			<arg value="@{scheme}"/>
+			<arg value="@{action}"/>
+		  </exec>
+		</sequential>
+	</macrodef>
+   	<target name="debugbuild">
+		<xcodebuild workspace="BuggyWhipChat.xcworkspace" scheme="BuggyWhipChat"/>
+   </target>
+</project>

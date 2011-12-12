@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A05ADB513BADABB0080AAD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB413BADABB0080AAD4 /* UIKit.framework */; };
+		1A05ADB713BADABB0080AAD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB613BADABB0080AAD4 /* Foundation.framework */; };
+		1A05ADB913BADABB0080AAD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB813BADABB0080AAD4 /* CoreGraphics.framework */; };
+		1A05ADBB13BADABB0080AAD4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADBA13BADABB0080AAD4 /* CoreData.framework */; };
+		1A05ADC113BADABB0080AAD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADBF13BADABB0080AAD4 /* InfoPlist.strings */; };
+		1A05ADC313BADABB0080AAD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADC213BADABB0080AAD4 /* main.m */; };
+		1A05ADC713BADABB0080AAD4 /* BuggyWhipChatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADC613BADABB0080AAD4 /* BuggyWhipChatAppDelegate.m */; };
+		1A05ADCA13BADABB0080AAD4 /* BuggyWhipChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADC813BADABB0080AAD4 /* BuggyWhipChat.xcdatamodeld */; };
+		1A05ADCD13BADABB0080AAD4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADCC13BADABB0080AAD4 /* RootViewController.m */; };
+		1A05ADCF13BADABB0080AAD4 /* DetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADCE13BADABB0080AAD4 /* DetailViewController.h */; };
+		1A05ADD113BADABB0080AAD4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADD013BADABB0080AAD4 /* DetailViewController.m */; };
+		1A05ADD413BADABB0080AAD4 /* RootViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADD213BADABB0080AAD4 /* RootViewController_iPhone.xib */; };
+		1A05ADD713BADABB0080AAD4 /* RootViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADD513BADABB0080AAD4 /* RootViewController_iPad.xib */; };
+		1A05ADDA13BADABB0080AAD4 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADD813BADABB0080AAD4 /* DetailViewController_iPhone.xib */; };
+		1A05ADDD13BADABB0080AAD4 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADDB13BADABB0080AAD4 /* DetailViewController_iPad.xib */; };
+		1A05ADE513BADABC0080AAD4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADE413BADABC0080AAD4 /* SenTestingKit.framework */; };
+		1A05ADE613BADABC0080AAD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB413BADABB0080AAD4 /* UIKit.framework */; };
+		1A05ADE713BADABC0080AAD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB613BADABB0080AAD4 /* Foundation.framework */; };
+		1A05ADE813BADABC0080AAD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB813BADABB0080AAD4 /* CoreGraphics.framework */; };
+		1A05ADE913BADABC0080AAD4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADBA13BADABB0080AAD4 /* CoreData.framework */; };
+		1A05ADF113BADABC0080AAD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADEF13BADABC0080AAD4 /* InfoPlist.strings */; };
+		1A05ADF313BADABC0080AAD4 /* BuggyWhipChatTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADF213BADABC0080AAD4 /* BuggyWhipChatTests.h */; };
+		1A05ADF513BADABC0080AAD4 /* BuggyWhipChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADF413BADABC0080AAD4 /* BuggyWhipChatTests.m */; };
+		1A05AE0113BAE2BD0080AAD4 /* TwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05AE0013BAE2BD0080AAD4 /* TwitterAPI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A05ADEA13BADABC0080AAD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A05ADA713BADABB0080AAD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A05ADAF13BADABB0080AAD4;
+			remoteInfo = BuggyWhipChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A05ADB013BADABB0080AAD4 /* BuggyWhipChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuggyWhipChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A05ADB413BADABB0080AAD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A05ADB613BADABB0080AAD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A05ADB813BADABB0080AAD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A05ADBA13BADABB0080AAD4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1A05ADBE13BADABB0080AAD4 /* BuggyWhipChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuggyWhipChat-Info.plist"; sourceTree = "<group>"; };
+		1A05ADC013BADABB0080AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A05ADC213BADABB0080AAD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A05ADC413BADABB0080AAD4 /* BuggyWhipChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuggyWhipChat-Prefix.pch"; sourceTree = "<group>"; };
+		1A05ADC513BADABB0080AAD4 /* BuggyWhipChatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuggyWhipChatAppDelegate.h; sourceTree = "<group>"; };
+		1A05ADC613BADABB0080AAD4 /* BuggyWhipChatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuggyWhipChatAppDelegate.m; sourceTree = "<group>"; };
+		1A05ADC913BADABB0080AAD4 /* BuggyWhipChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuggyWhipChat.xcdatamodel; sourceTree = "<group>"; };
+		1A05ADCB13BADABB0080AAD4 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1A05ADCC13BADABB0080AAD4 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1A05ADCE13BADABB0080AAD4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1A05ADD013BADABB0080AAD4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1A05ADD313BADABB0080AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController_iPhone.xib; sourceTree = "<group>"; };
+		1A05ADD613BADABB0080AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController_iPad.xib; sourceTree = "<group>"; };
+		1A05ADD913BADABB0080AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		1A05ADDC13BADABB0080AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		1A05ADE313BADABC0080AAD4 /* BuggyWhipChatTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuggyWhipChatTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A05ADE413BADABC0080AAD4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1A05ADEE13BADABC0080AAD4 /* BuggyWhipChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuggyWhipChatTests-Info.plist"; sourceTree = "<group>"; };
+		1A05ADF013BADABC0080AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A05ADF213BADABC0080AAD4 /* BuggyWhipChatTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuggyWhipChatTests.h; sourceTree = "<group>"; };
+		1A05ADF413BADABC0080AAD4 /* BuggyWhipChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuggyWhipChatTests.m; sourceTree = "<group>"; };
+		1A05ADFF13BAE2BD0080AAD4 /* TwitterAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAPI.h; sourceTree = "<group>"; };
+		1A05AE0013BAE2BD0080AAD4 /* TwitterAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAPI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A05ADAD13BADABB0080AAD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A05ADB513BADABB0080AAD4 /* UIKit.framework in Frameworks */,
+				1A05ADB713BADABB0080AAD4 /* Foundation.framework in Frameworks */,
+				1A05ADB913BADABB0080AAD4 /* CoreGraphics.framework in Frameworks */,
+				1A05ADBB13BADABB0080AAD4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A05ADDF13BADABC0080AAD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A05ADE513BADABC0080AAD4 /* SenTestingKit.framework in Frameworks */,
+				1A05ADE613BADABC0080AAD4 /* UIKit.framework in Frameworks */,
+				1A05ADE713BADABC0080AAD4 /* Foundation.framework in Frameworks */,
+				1A05ADE813BADABC0080AAD4 /* CoreGraphics.framework in Frameworks */,
+				1A05ADE913BADABC0080AAD4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A05ADA513BADABB0080AAD4 = {
+			isa = PBXGroup;
+			children = (
+				1A05ADBC13BADABB0080AAD4 /* BuggyWhipChat */,
+				1A05ADEC13BADABC0080AAD4 /* BuggyWhipChatTests */,
+				1A05ADB313BADABB0080AAD4 /* Frameworks */,
+				1A05ADB113BADABB0080AAD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A05ADB113BADABB0080AAD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADB013BADABB0080AAD4 /* BuggyWhipChat.app */,
+				1A05ADE313BADABC0080AAD4 /* BuggyWhipChatTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A05ADB313BADABB0080AAD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADB413BADABB0080AAD4 /* UIKit.framework */,
+				1A05ADB613BADABB0080AAD4 /* Foundation.framework */,
+				1A05ADB813BADABB0080AAD4 /* CoreGraphics.framework */,
+				1A05ADBA13BADABB0080AAD4 /* CoreData.framework */,
+				1A05ADE413BADABC0080AAD4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A05ADBC13BADABB0080AAD4 /* BuggyWhipChat */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADFE13BAE2A50080AAD4 /* APIs */,
+				1A05ADC513BADABB0080AAD4 /* BuggyWhipChatAppDelegate.h */,
+				1A05ADC613BADABB0080AAD4 /* BuggyWhipChatAppDelegate.m */,
+				1A05ADCB13BADABB0080AAD4 /* RootViewController.h */,
+				1A05ADCC13BADABB0080AAD4 /* RootViewController.m */,
+				1A05ADCE13BADABB0080AAD4 /* DetailViewController.h */,
+				1A05ADD013BADABB0080AAD4 /* DetailViewController.m */,
+				1A05ADD213BADABB0080AAD4 /* RootViewController_iPhone.xib */,
+				1A05ADD513BADABB0080AAD4 /* RootViewController_iPad.xib */,
+				1A05ADD813BADABB0080AAD4 /* DetailViewController_iPhone.xib */,
+				1A05ADDB13BADABB0080AAD4 /* DetailViewController_iPad.xib */,
+				1A05ADC813BADABB0080AAD4 /* BuggyWhipChat.xcdatamodeld */,
+				1A05ADBD13BADABB0080AAD4 /* Supporting Files */,
+			);
+			path = BuggyWhipChat;
+			sourceTree = "<group>";
+		};
+		1A05ADBD13BADABB0080AAD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADBE13BADABB0080AAD4 /* BuggyWhipChat-Info.plist */,
+				1A05ADBF13BADABB0080AAD4 /* InfoPlist.strings */,
+				1A05ADC213BADABB0080AAD4 /* main.m */,
+				1A05ADC413BADABB0080AAD4 /* BuggyWhipChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A05ADEC13BADABC0080AAD4 /* BuggyWhipChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADF213BADABC0080AAD4 /* BuggyWhipChatTests.h */,
+				1A05ADF413BADABC0080AAD4 /* BuggyWhipChatTests.m */,
+				1A05ADED13BADABC0080AAD4 /* Supporting Files */,
+			);
+			path = BuggyWhipChatTests;
+			sourceTree = "<group>";
+		};
+		1A05ADED13BADABC0080AAD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADEE13BADABC0080AAD4 /* BuggyWhipChatTests-Info.plist */,
+				1A05ADEF13BADABC0080AAD4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A05ADFE13BAE2A50080AAD4 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADFF13BAE2BD0080AAD4 /* TwitterAPI.h */,
+				1A05AE0013BAE2BD0080AAD4 /* TwitterAPI.m */,
+			);
+			name = APIs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A05ADAF13BADABB0080AAD4 /* BuggyWhipChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A05ADF813BADABC0080AAD4 /* Build configuration list for PBXNativeTarget "BuggyWhipChat" */;
+			buildPhases = (
+				1A05ADAC13BADABB0080AAD4 /* Sources */,
+				1A05ADAD13BADABB0080AAD4 /* Frameworks */,
+				1A05ADAE13BADABB0080AAD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuggyWhipChat;
+			productName = BuggyWhipChat;
+			productReference = 1A05ADB013BADABB0080AAD4 /* BuggyWhipChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A05ADE213BADABC0080AAD4 /* BuggyWhipChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A05ADFB13BADABC0080AAD4 /* Build configuration list for PBXNativeTarget "BuggyWhipChatTests" */;
+			buildPhases = (
+				1A05ADDE13BADABC0080AAD4 /* Sources */,
+				1A05ADDF13BADABC0080AAD4 /* Frameworks */,
+				1A05ADE013BADABC0080AAD4 /* Resources */,
+				1A05ADE113BADABC0080AAD4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A05ADEB13BADABC0080AAD4 /* PBXTargetDependency */,
+			);
+			name = BuggyWhipChatTests;
+			productName = BuggyWhipChatTests;
+			productReference = 1A05ADE313BADABC0080AAD4 /* BuggyWhipChatTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A05ADA713BADABB0080AAD4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1A05ADAA13BADABB0080AAD4 /* Build configuration list for PBXProject "BuggyWhipChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A05ADA513BADABB0080AAD4;
+			productRefGroup = 1A05ADB113BADABB0080AAD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A05ADAF13BADABB0080AAD4 /* BuggyWhipChat */,
+				1A05ADE213BADABC0080AAD4 /* BuggyWhipChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A05ADAE13BADABB0080AAD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A05ADC113BADABB0080AAD4 /* InfoPlist.strings in Resources */,
+				1A05ADCF13BADABB0080AAD4 /* DetailViewController.h in Resources */,
+				1A05ADD413BADABB0080AAD4 /* RootViewController_iPhone.xib in Resources */,
+				1A05ADD713BADABB0080AAD4 /* RootViewController_iPad.xib in Resources */,
+				1A05ADDA13BADABB0080AAD4 /* DetailViewController_iPhone.xib in Resources */,
+				1A05ADDD13BADABB0080AAD4 /* DetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A05ADE013BADABC0080AAD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A05ADF113BADABC0080AAD4 /* InfoPlist.strings in Resources */,
+				1A05ADF313BADABC0080AAD4 /* BuggyWhipChatTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A05ADE113BADABC0080AAD4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A05ADAC13BADABB0080AAD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A05ADC313BADABB0080AAD4 /* main.m in Sources */,
+				1A05ADC713BADABB0080AAD4 /* BuggyWhipChatAppDelegate.m in Sources */,
+				1A05ADCA13BADABB0080AAD4 /* BuggyWhipChat.xcdatamodeld in Sources */,
+				1A05ADCD13BADABB0080AAD4 /* RootViewController.m in Sources */,
+				1A05ADD113BADABB0080AAD4 /* DetailViewController.m in Sources */,
+				1A05AE0113BAE2BD0080AAD4 /* TwitterAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A05ADDE13BADABC0080AAD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A05ADF513BADABC0080AAD4 /* BuggyWhipChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A05ADEB13BADABC0080AAD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A05ADAF13BADABB0080AAD4 /* BuggyWhipChat */;
+			targetProxy = 1A05ADEA13BADABC0080AAD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A05ADBF13BADABB0080AAD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A05ADC013BADABB0080AAD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A05ADD213BADABB0080AAD4 /* RootViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A05ADD313BADABB0080AAD4 /* en */,
+			);
+			name = RootViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1A05ADD513BADABB0080AAD4 /* RootViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A05ADD613BADABB0080AAD4 /* en */,
+			);
+			name = RootViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		1A05ADD813BADABB0080AAD4 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A05ADD913BADABB0080AAD4 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1A05ADDB13BADABB0080AAD4 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A05ADDC13BADABB0080AAD4 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		1A05ADEF13BADABC0080AAD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A05ADF013BADABC0080AAD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A05ADF613BADABC0080AAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A05ADF713BADABC0080AAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A05ADF913BADABC0080AAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChat/BuggyWhipChat-Prefix.pch";
+				INFOPLIST_FILE = "BuggyWhipChat/BuggyWhipChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A05ADFA13BADABC0080AAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChat/BuggyWhipChat-Prefix.pch";
+				INFOPLIST_FILE = "BuggyWhipChat/BuggyWhipChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A05ADFC13BADABC0080AAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuggyWhipChat.app/BuggyWhipChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChat/BuggyWhipChat-Prefix.pch";
+				INFOPLIST_FILE = "BuggyWhipChatTests/BuggyWhipChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1A05ADFD13BADABC0080AAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuggyWhipChat.app/BuggyWhipChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChat/BuggyWhipChat-Prefix.pch";
+				INFOPLIST_FILE = "BuggyWhipChatTests/BuggyWhipChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A05ADAA13BADABB0080AAD4 /* Build configuration list for PBXProject "BuggyWhipChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A05ADF613BADABC0080AAD4 /* Debug */,
+				1A05ADF713BADABC0080AAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A05ADF813BADABC0080AAD4 /* Build configuration list for PBXNativeTarget "BuggyWhipChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A05ADF913BADABC0080AAD4 /* Debug */,
+				1A05ADFA13BADABC0080AAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A05ADFB13BADABC0080AAD4 /* Build configuration list for PBXNativeTarget "BuggyWhipChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A05ADFC13BADABC0080AAD4 /* Debug */,
+				1A05ADFD13BADABC0080AAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A05ADC813BADABB0080AAD4 /* BuggyWhipChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A05ADC913BADABB0080AAD4 /* BuggyWhipChat.xcdatamodel */,
+			);
+			currentVersion = 1A05ADC913BADABB0080AAD4 /* BuggyWhipChat.xcdatamodel */;
+			path = BuggyWhipChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A05ADA713BADABB0080AAD4 /* Project object */;
+}

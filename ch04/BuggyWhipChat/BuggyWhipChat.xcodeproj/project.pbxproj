@@ -1,0 +1,1200 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A05ADB513BADABB0080AAD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB413BADABB0080AAD4 /* UIKit.framework */; };
+		1A05ADB713BADABB0080AAD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB613BADABB0080AAD4 /* Foundation.framework */; };
+		1A05ADB913BADABB0080AAD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB813BADABB0080AAD4 /* CoreGraphics.framework */; };
+		1A05ADBB13BADABB0080AAD4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADBA13BADABB0080AAD4 /* CoreData.framework */; };
+		1A05ADC113BADABB0080AAD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADBF13BADABB0080AAD4 /* InfoPlist.strings */; };
+		1A05ADC313BADABB0080AAD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADC213BADABB0080AAD4 /* main.m */; };
+		1A05ADC713BADABB0080AAD4 /* BuggyWhipChatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADC613BADABB0080AAD4 /* BuggyWhipChatAppDelegate.m */; };
+		1A05ADCA13BADABB0080AAD4 /* BuggyWhipChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADC813BADABB0080AAD4 /* BuggyWhipChat.xcdatamodeld */; };
+		1A05ADCD13BADABB0080AAD4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADCC13BADABB0080AAD4 /* RootViewController.m */; };
+		1A05ADCF13BADABB0080AAD4 /* DetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADCE13BADABB0080AAD4 /* DetailViewController.h */; };
+		1A05ADD113BADABB0080AAD4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADD013BADABB0080AAD4 /* DetailViewController.m */; };
+		1A05ADD413BADABB0080AAD4 /* RootViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADD213BADABB0080AAD4 /* RootViewController_iPhone.xib */; };
+		1A05ADD713BADABB0080AAD4 /* RootViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADD513BADABB0080AAD4 /* RootViewController_iPad.xib */; };
+		1A05ADDA13BADABB0080AAD4 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADD813BADABB0080AAD4 /* DetailViewController_iPhone.xib */; };
+		1A05ADDD13BADABB0080AAD4 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADDB13BADABB0080AAD4 /* DetailViewController_iPad.xib */; };
+		1A05ADE513BADABC0080AAD4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADE413BADABC0080AAD4 /* SenTestingKit.framework */; };
+		1A05ADE613BADABC0080AAD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB413BADABB0080AAD4 /* UIKit.framework */; };
+		1A05ADE713BADABC0080AAD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB613BADABB0080AAD4 /* Foundation.framework */; };
+		1A05ADE813BADABC0080AAD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB813BADABB0080AAD4 /* CoreGraphics.framework */; };
+		1A05ADE913BADABC0080AAD4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADBA13BADABB0080AAD4 /* CoreData.framework */; };
+		1A05ADF113BADABC0080AAD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADEF13BADABC0080AAD4 /* InfoPlist.strings */; };
+		1A05ADF313BADABC0080AAD4 /* BuggyWhipChatTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A05ADF213BADABC0080AAD4 /* BuggyWhipChatTests.h */; };
+		1A05ADF513BADABC0080AAD4 /* BuggyWhipChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADF413BADABC0080AAD4 /* BuggyWhipChatTests.m */; };
+		1A286F7414671FC200EA90FD /* WeatherSvc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A51CF9F14671DE10032AE08 /* WeatherSvc.m */; };
+		1A286F7514671FC200EA90FD /* NSDate+ISO8601Parsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A88866B146715A700118E51 /* NSDate+ISO8601Parsing.m */; };
+		1A286F7614671FC200EA90FD /* NSDate+ISO8601Unparsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A88866C146715A700118E51 /* NSDate+ISO8601Unparsing.m */; };
+		1A286F7714671FC200EA90FD /* USAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A88866D146715A700118E51 /* USAdditions.m */; };
+		1A286F7814671FC200EA90FD /* USGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A88866E146715A700118E51 /* USGlobals.m */; };
+		1A286F7914671FC200EA90FD /* xsd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A88866F146715A700118E51 /* xsd.m */; };
+		1A50E35713DC868E00D547BF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A50E35213DC868D00D547BF /* CFNetwork.framework */; };
+		1A50E35813DC868E00D547BF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A50E35413DC868D00D547BF /* libz.dylib */; };
+		1A50E35913DC868E00D547BF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A50E35513DC868D00D547BF /* MobileCoreServices.framework */; };
+		1A50E35A13DC868E00D547BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A50E35613DC868D00D547BF /* SystemConfiguration.framework */; };
+		1A51CFA714671E630032AE08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB613BADABB0080AAD4 /* Foundation.framework */; };
+		1A51CFB314671EB40032AE08 /* libSOAPWeatherService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A51CFA614671E630032AE08 /* libSOAPWeatherService.a */; };
+		1A88863E146710B000118E51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB613BADABB0080AAD4 /* Foundation.framework */; };
+		1A888648146710CA00118E51 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC88F8D13DD05720001B921 /* NSString+DDXML.m */; };
+		1A888649146710CA00118E51 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC88F9013DD05720001B921 /* DDXMLDocument.m */; };
+		1A88864A146710CA00118E51 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC88F9213DD05720001B921 /* DDXMLElement.m */; };
+		1A88864B146710CA00118E51 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC88F9413DD05720001B921 /* DDXMLNode.m */; };
+		1A888651146710ED00118E51 /* libDDXML.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A88863D146710B000118E51 /* libDDXML.a */; };
+		1A8886521467111B00118E51 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC88F9D13DD05980001B921 /* libxml2.dylib */; };
+		1AC88F8713DCF4440001B921 /* WebServiceEndpointGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC88F8613DCF4440001B921 /* WebServiceEndpointGenerator.m */; };
+		1AC88F9E13DD05980001B921 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC88F9D13DD05980001B921 /* libxml2.dylib */; };
+		1ACB2091147694E800AB17FD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADE413BADABC0080AAD4 /* SenTestingKit.framework */; };
+		1ACB2092147694E800AB17FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB413BADABB0080AAD4 /* UIKit.framework */; };
+		1ACB2093147694E800AB17FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A05ADB613BADABB0080AAD4 /* Foundation.framework */; };
+		1ACB2099147694E800AB17FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB2097147694E800AB17FD /* InfoPlist.strings */; };
+		1ACB20A21476951900AB17FD /* BuggyWhipChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A05ADF413BADABC0080AAD4 /* BuggyWhipChatTests.m */; };
+		1ADCFF7A13C13A3900A9AC02 /* libChatAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADCFF7113C132BD00A9AC02 /* libChatAPI.a */; };
+		1ADCFF8A13C1509000A9AC02 /* ChatChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADCFF8813C1509000A9AC02 /* ChatChooser.m */; };
+		1ADCFF8B13C1509000A9AC02 /* ChatChooser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ADCFF8913C1509000A9AC02 /* ChatChooser.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A05ADEA13BADABC0080AAD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A05ADA713BADABB0080AAD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A05ADAF13BADABB0080AAD4;
+			remoteInfo = BuggyWhipChat;
+		};
+		1A51CFB114671EAF0032AE08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A05ADA713BADABB0080AAD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A51CFA514671E630032AE08;
+			remoteInfo = SOAPWeatherService;
+		};
+		1A88864F146710E900118E51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A05ADA713BADABB0080AAD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A88863C146710B000118E51;
+			remoteInfo = DDXML;
+		};
+		1ADCFF7013C132BD00A9AC02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADCFF6B13C132BD00A9AC02 /* ChatAPI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1ADCFF3713C1328200A9AC02;
+			remoteInfo = ChatAPI;
+		};
+		1ADCFF7213C132BD00A9AC02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADCFF6B13C132BD00A9AC02 /* ChatAPI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1ADCFF4413C1328200A9AC02;
+			remoteInfo = ChatAPITests;
+		};
+		1ADCFF7413C1384B00A9AC02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADCFF6B13C132BD00A9AC02 /* ChatAPI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADCFF3613C1328200A9AC02;
+			remoteInfo = ChatAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A05ADB013BADABB0080AAD4 /* BuggyWhipChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuggyWhipChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A05ADB413BADABB0080AAD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A05ADB613BADABB0080AAD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A05ADB813BADABB0080AAD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A05ADBA13BADABB0080AAD4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1A05ADBE13BADABB0080AAD4 /* BuggyWhipChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuggyWhipChat-Info.plist"; sourceTree = "<group>"; };
+		1A05ADC013BADABB0080AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A05ADC213BADABB0080AAD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A05ADC413BADABB0080AAD4 /* BuggyWhipChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuggyWhipChat-Prefix.pch"; sourceTree = "<group>"; };
+		1A05ADC513BADABB0080AAD4 /* BuggyWhipChatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuggyWhipChatAppDelegate.h; sourceTree = "<group>"; };
+		1A05ADC613BADABB0080AAD4 /* BuggyWhipChatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuggyWhipChatAppDelegate.m; sourceTree = "<group>"; };
+		1A05ADC913BADABB0080AAD4 /* BuggyWhipChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuggyWhipChat.xcdatamodel; sourceTree = "<group>"; };
+		1A05ADCB13BADABB0080AAD4 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1A05ADCC13BADABB0080AAD4 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1A05ADCE13BADABB0080AAD4 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1A05ADD013BADABB0080AAD4 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1A05ADD313BADABB0080AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController_iPhone.xib; sourceTree = "<group>"; };
+		1A05ADD613BADABB0080AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController_iPad.xib; sourceTree = "<group>"; };
+		1A05ADD913BADABB0080AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		1A05ADDC13BADABB0080AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		1A05ADE313BADABC0080AAD4 /* BuggyWhipChatTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuggyWhipChatTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A05ADE413BADABC0080AAD4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1A05ADEE13BADABC0080AAD4 /* BuggyWhipChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuggyWhipChatTests-Info.plist"; sourceTree = "<group>"; };
+		1A05ADF013BADABC0080AAD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A05ADF213BADABC0080AAD4 /* BuggyWhipChatTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuggyWhipChatTests.h; sourceTree = "<group>"; };
+		1A05ADF413BADABC0080AAD4 /* BuggyWhipChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuggyWhipChatTests.m; sourceTree = "<group>"; };
+		1A50E35213DC868D00D547BF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1A50E35313DC868D00D547BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A50E35413DC868D00D547BF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1A50E35513DC868D00D547BF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1A50E35613DC868D00D547BF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1A51CF9E14671DE10032AE08 /* WeatherSvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherSvc.h; path = ../SOAPWeatherServier/WeatherSvc.h; sourceTree = "<group>"; };
+		1A51CF9F14671DE10032AE08 /* WeatherSvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherSvc.m; path = ../SOAPWeatherServier/WeatherSvc.m; sourceTree = "<group>"; };
+		1A51CFA614671E630032AE08 /* libSOAPWeatherService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSOAPWeatherService.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A51CFAA14671E630032AE08 /* SOAPWeatherService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOAPWeatherService-Prefix.pch"; sourceTree = "<group>"; };
+		1A88863D146710B000118E51 /* libDDXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDDXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A888641146710B000118E51 /* DDXML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDXML-Prefix.pch"; sourceTree = "<group>"; };
+		1A88866B146715A700118E51 /* NSDate+ISO8601Parsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ISO8601Parsing.m"; path = "../SOAPWeatherServier/NSDate+ISO8601Parsing.m"; sourceTree = "<group>"; };
+		1A88866C146715A700118E51 /* NSDate+ISO8601Unparsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ISO8601Unparsing.m"; path = "../SOAPWeatherServier/NSDate+ISO8601Unparsing.m"; sourceTree = "<group>"; };
+		1A88866D146715A700118E51 /* USAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = USAdditions.m; path = ../SOAPWeatherServier/USAdditions.m; sourceTree = "<group>"; };
+		1A88866E146715A700118E51 /* USGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = USGlobals.m; path = ../SOAPWeatherServier/USGlobals.m; sourceTree = "<group>"; };
+		1A88866F146715A700118E51 /* xsd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = xsd.m; path = ../SOAPWeatherServier/xsd.m; sourceTree = "<group>"; };
+		1A88867B146716F000118E51 /* NSDate+ISO8601Parsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+ISO8601Parsing.h"; path = "../SOAPWeatherServier/NSDate+ISO8601Parsing.h"; sourceTree = "<group>"; };
+		1A88867C146716F000118E51 /* NSDate+ISO8601Unparsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+ISO8601Unparsing.h"; path = "../SOAPWeatherServier/NSDate+ISO8601Unparsing.h"; sourceTree = "<group>"; };
+		1A88867D146716F000118E51 /* USAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = USAdditions.h; path = ../SOAPWeatherServier/USAdditions.h; sourceTree = "<group>"; };
+		1A88867E146716F000118E51 /* USGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = USGlobals.h; path = ../SOAPWeatherServier/USGlobals.h; sourceTree = "<group>"; };
+		1A88867F146716F000118E51 /* xsd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xsd.h; path = ../SOAPWeatherServier/xsd.h; sourceTree = "<group>"; };
+		1AC88F8513DCF4440001B921 /* WebServiceEndpointGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceEndpointGenerator.h; sourceTree = "<group>"; };
+		1AC88F8613DCF4440001B921 /* WebServiceEndpointGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceEndpointGenerator.m; sourceTree = "<group>"; };
+		1AC88F8913DD05720001B921 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDXMLElementAdditions.h; path = ../../KissXML/KissXML/Additions/DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		1AC88F8A13DD05720001B921 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDXMLElementAdditions.m; path = ../../KissXML/KissXML/Additions/DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		1AC88F8C13DD05720001B921 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		1AC88F8D13DD05720001B921 /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		1AC88F8E13DD05720001B921 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDXML.h; path = ../../KissXML/KissXML/DDXML.h; sourceTree = "<group>"; };
+		1AC88F8F13DD05720001B921 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDXMLDocument.h; path = ../../KissXML/KissXML/DDXMLDocument.h; sourceTree = "<group>"; };
+		1AC88F9013DD05720001B921 /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDXMLDocument.m; path = ../../KissXML/KissXML/DDXMLDocument.m; sourceTree = "<group>"; };
+		1AC88F9113DD05720001B921 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDXMLElement.h; path = ../../KissXML/KissXML/DDXMLElement.h; sourceTree = "<group>"; };
+		1AC88F9213DD05720001B921 /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDXMLElement.m; path = ../../KissXML/KissXML/DDXMLElement.m; sourceTree = "<group>"; };
+		1AC88F9313DD05720001B921 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDXMLNode.h; path = ../../KissXML/KissXML/DDXMLNode.h; sourceTree = "<group>"; };
+		1AC88F9413DD05720001B921 /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDXMLNode.m; path = ../../KissXML/KissXML/DDXMLNode.m; sourceTree = "<group>"; };
+		1AC88F9613DD05720001B921 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		1AC88F9713DD05720001B921 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDXMLPrivate.h; path = ../../KissXML/KissXML/Private/DDXMLPrivate.h; sourceTree = "<group>"; };
+		1AC88F9D13DD05980001B921 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		1ACB2090147694E800AB17FD /* BuggyWhipChatUnitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuggyWhipChatUnitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ACB2096147694E800AB17FD /* BuggyWhipChatUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuggyWhipChatUnitTests-Info.plist"; sourceTree = "<group>"; };
+		1ACB2098147694E800AB17FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1ACB209D147694E800AB17FD /* BuggyWhipChatUnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuggyWhipChatUnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		1ADCFF6B13C132BD00A9AC02 /* ChatAPI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChatAPI.xcodeproj; path = ../ChatAPI/ChatAPI.xcodeproj; sourceTree = "<group>"; };
+		1ADCFF8713C1509000A9AC02 /* ChatChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatChooser.h; sourceTree = "<group>"; };
+		1ADCFF8813C1509000A9AC02 /* ChatChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatChooser.m; sourceTree = "<group>"; };
+		1ADCFF8913C1509000A9AC02 /* ChatChooser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatChooser.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A05ADAD13BADABB0080AAD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51CFB314671EB40032AE08 /* libSOAPWeatherService.a in Frameworks */,
+				1A888651146710ED00118E51 /* libDDXML.a in Frameworks */,
+				1AC88F9E13DD05980001B921 /* libxml2.dylib in Frameworks */,
+				1A50E35713DC868E00D547BF /* CFNetwork.framework in Frameworks */,
+				1A05ADB913BADABB0080AAD4 /* CoreGraphics.framework in Frameworks */,
+				1A50E35813DC868E00D547BF /* libz.dylib in Frameworks */,
+				1A50E35913DC868E00D547BF /* MobileCoreServices.framework in Frameworks */,
+				1A50E35A13DC868E00D547BF /* SystemConfiguration.framework in Frameworks */,
+				1ADCFF7A13C13A3900A9AC02 /* libChatAPI.a in Frameworks */,
+				1A05ADB513BADABB0080AAD4 /* UIKit.framework in Frameworks */,
+				1A05ADB713BADABB0080AAD4 /* Foundation.framework in Frameworks */,
+				1A05ADBB13BADABB0080AAD4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A05ADDF13BADABC0080AAD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A05ADE513BADABC0080AAD4 /* SenTestingKit.framework in Frameworks */,
+				1A05ADE613BADABC0080AAD4 /* UIKit.framework in Frameworks */,
+				1A05ADE713BADABC0080AAD4 /* Foundation.framework in Frameworks */,
+				1A05ADE813BADABC0080AAD4 /* CoreGraphics.framework in Frameworks */,
+				1A05ADE913BADABC0080AAD4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51CFA314671E630032AE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51CFA714671E630032AE08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A88863A146710B000118E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8886521467111B00118E51 /* libxml2.dylib in Frameworks */,
+				1A88863E146710B000118E51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ACB208C147694E800AB17FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACB2091147694E800AB17FD /* SenTestingKit.framework in Frameworks */,
+				1ACB2092147694E800AB17FD /* UIKit.framework in Frameworks */,
+				1ACB2093147694E800AB17FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A05ADA513BADABB0080AAD4 = {
+			isa = PBXGroup;
+			children = (
+				1AC88F9D13DD05980001B921 /* libxml2.dylib */,
+				1A50E35213DC868D00D547BF /* CFNetwork.framework */,
+				1A50E35313DC868D00D547BF /* CoreGraphics.framework */,
+				1A50E35413DC868D00D547BF /* libz.dylib */,
+				1A50E35513DC868D00D547BF /* MobileCoreServices.framework */,
+				1A50E35613DC868D00D547BF /* SystemConfiguration.framework */,
+				1ADCFF6B13C132BD00A9AC02 /* ChatAPI.xcodeproj */,
+				1A05ADBC13BADABB0080AAD4 /* BuggyWhipChat */,
+				1A05ADEC13BADABC0080AAD4 /* BuggyWhipChatTests */,
+				1A88863F146710B000118E51 /* DDXML */,
+				1A51CFA814671E630032AE08 /* SOAPWeatherService */,
+				1ACB2094147694E800AB17FD /* BuggyWhipChatUnitTests */,
+				1A05ADB313BADABB0080AAD4 /* Frameworks */,
+				1A05ADB113BADABB0080AAD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A05ADB113BADABB0080AAD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADB013BADABB0080AAD4 /* BuggyWhipChat.app */,
+				1A05ADE313BADABC0080AAD4 /* BuggyWhipChatTests.octest */,
+				1A88863D146710B000118E51 /* libDDXML.a */,
+				1A51CFA614671E630032AE08 /* libSOAPWeatherService.a */,
+				1ACB2090147694E800AB17FD /* BuggyWhipChatUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A05ADB313BADABB0080AAD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADB413BADABB0080AAD4 /* UIKit.framework */,
+				1A05ADB613BADABB0080AAD4 /* Foundation.framework */,
+				1A05ADB813BADABB0080AAD4 /* CoreGraphics.framework */,
+				1A05ADBA13BADABB0080AAD4 /* CoreData.framework */,
+				1A05ADE413BADABC0080AAD4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A05ADBC13BADABB0080AAD4 /* BuggyWhipChat */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADC513BADABB0080AAD4 /* BuggyWhipChatAppDelegate.h */,
+				1A05ADC613BADABB0080AAD4 /* BuggyWhipChatAppDelegate.m */,
+				1A05ADCB13BADABB0080AAD4 /* RootViewController.h */,
+				1A05ADCC13BADABB0080AAD4 /* RootViewController.m */,
+				1A05ADCE13BADABB0080AAD4 /* DetailViewController.h */,
+				1A05ADD013BADABB0080AAD4 /* DetailViewController.m */,
+				1A05ADD213BADABB0080AAD4 /* RootViewController_iPhone.xib */,
+				1A05ADD513BADABB0080AAD4 /* RootViewController_iPad.xib */,
+				1A05ADD813BADABB0080AAD4 /* DetailViewController_iPhone.xib */,
+				1A05ADDB13BADABB0080AAD4 /* DetailViewController_iPad.xib */,
+				1A05ADC813BADABB0080AAD4 /* BuggyWhipChat.xcdatamodeld */,
+				1A05ADBD13BADABB0080AAD4 /* Supporting Files */,
+				1ADCFF8713C1509000A9AC02 /* ChatChooser.h */,
+				1ADCFF8813C1509000A9AC02 /* ChatChooser.m */,
+				1ADCFF8913C1509000A9AC02 /* ChatChooser.xib */,
+				1AC88F8513DCF4440001B921 /* WebServiceEndpointGenerator.h */,
+				1AC88F8613DCF4440001B921 /* WebServiceEndpointGenerator.m */,
+			);
+			path = BuggyWhipChat;
+			sourceTree = "<group>";
+		};
+		1A05ADBD13BADABB0080AAD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADBE13BADABB0080AAD4 /* BuggyWhipChat-Info.plist */,
+				1A05ADBF13BADABB0080AAD4 /* InfoPlist.strings */,
+				1A05ADC213BADABB0080AAD4 /* main.m */,
+				1A05ADC413BADABB0080AAD4 /* BuggyWhipChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A05ADEC13BADABC0080AAD4 /* BuggyWhipChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADF213BADABC0080AAD4 /* BuggyWhipChatTests.h */,
+				1A05ADF413BADABC0080AAD4 /* BuggyWhipChatTests.m */,
+				1A05ADED13BADABC0080AAD4 /* Supporting Files */,
+			);
+			path = BuggyWhipChatTests;
+			sourceTree = "<group>";
+		};
+		1A05ADED13BADABC0080AAD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A05ADEE13BADABC0080AAD4 /* BuggyWhipChatTests-Info.plist */,
+				1A05ADEF13BADABC0080AAD4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A51CFA814671E630032AE08 /* SOAPWeatherService */ = {
+			isa = PBXGroup;
+			children = (
+				1A51CF9E14671DE10032AE08 /* WeatherSvc.h */,
+				1A51CF9F14671DE10032AE08 /* WeatherSvc.m */,
+				1A88867B146716F000118E51 /* NSDate+ISO8601Parsing.h */,
+				1A88867C146716F000118E51 /* NSDate+ISO8601Unparsing.h */,
+				1A88867D146716F000118E51 /* USAdditions.h */,
+				1A88867E146716F000118E51 /* USGlobals.h */,
+				1A88867F146716F000118E51 /* xsd.h */,
+				1A88866B146715A700118E51 /* NSDate+ISO8601Parsing.m */,
+				1A88866C146715A700118E51 /* NSDate+ISO8601Unparsing.m */,
+				1A88866D146715A700118E51 /* USAdditions.m */,
+				1A88866E146715A700118E51 /* USGlobals.m */,
+				1A88866F146715A700118E51 /* xsd.m */,
+				1A51CFA914671E630032AE08 /* Supporting Files */,
+			);
+			path = SOAPWeatherService;
+			sourceTree = "<group>";
+		};
+		1A51CFA914671E630032AE08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A51CFAA14671E630032AE08 /* SOAPWeatherService-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A88863F146710B000118E51 /* DDXML */ = {
+			isa = PBXGroup;
+			children = (
+				1AC88F8913DD05720001B921 /* DDXMLElementAdditions.h */,
+				1AC88F8A13DD05720001B921 /* DDXMLElementAdditions.m */,
+				1AC88F8B13DD05720001B921 /* Categories */,
+				1AC88F8E13DD05720001B921 /* DDXML.h */,
+				1AC88F8F13DD05720001B921 /* DDXMLDocument.h */,
+				1AC88F9013DD05720001B921 /* DDXMLDocument.m */,
+				1AC88F9113DD05720001B921 /* DDXMLElement.h */,
+				1AC88F9213DD05720001B921 /* DDXMLElement.m */,
+				1AC88F9313DD05720001B921 /* DDXMLNode.h */,
+				1AC88F9413DD05720001B921 /* DDXMLNode.m */,
+				1AC88F9513DD05720001B921 /* Private */,
+				1AC88F9713DD05720001B921 /* DDXMLPrivate.h */,
+				1A888640146710B000118E51 /* Supporting Files */,
+			);
+			path = DDXML;
+			sourceTree = "<group>";
+		};
+		1A888640146710B000118E51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A888641146710B000118E51 /* DDXML-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AC88F8B13DD05720001B921 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1AC88F8C13DD05720001B921 /* NSString+DDXML.h */,
+				1AC88F8D13DD05720001B921 /* NSString+DDXML.m */,
+			);
+			name = Categories;
+			path = ../../KissXML/KissXML/Categories;
+			sourceTree = "<group>";
+		};
+		1AC88F9513DD05720001B921 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				1AC88F9613DD05720001B921 /* DDXMLPrivate.h */,
+			);
+			name = Private;
+			path = ../../KissXML/KissXML/Private;
+			sourceTree = "<group>";
+		};
+		1ACB2094147694E800AB17FD /* BuggyWhipChatUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				1ACB2095147694E800AB17FD /* Supporting Files */,
+			);
+			path = BuggyWhipChatUnitTests;
+			sourceTree = "<group>";
+		};
+		1ACB2095147694E800AB17FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ACB2096147694E800AB17FD /* BuggyWhipChatUnitTests-Info.plist */,
+				1ACB2097147694E800AB17FD /* InfoPlist.strings */,
+				1ACB209D147694E800AB17FD /* BuggyWhipChatUnitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1ADCFF6C13C132BD00A9AC02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ADCFF7113C132BD00A9AC02 /* libChatAPI.a */,
+				1ADCFF7313C132BD00A9AC02 /* ChatAPITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A51CFA414671E630032AE08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A88863B146710B000118E51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A05ADAF13BADABB0080AAD4 /* BuggyWhipChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A05ADF813BADABC0080AAD4 /* Build configuration list for PBXNativeTarget "BuggyWhipChat" */;
+			buildPhases = (
+				1A05ADAC13BADABB0080AAD4 /* Sources */,
+				1A05ADAD13BADABB0080AAD4 /* Frameworks */,
+				1A05ADAE13BADABB0080AAD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A51CFB214671EAF0032AE08 /* PBXTargetDependency */,
+				1A888650146710E900118E51 /* PBXTargetDependency */,
+				1ADCFF7513C1384B00A9AC02 /* PBXTargetDependency */,
+			);
+			name = BuggyWhipChat;
+			productName = BuggyWhipChat;
+			productReference = 1A05ADB013BADABB0080AAD4 /* BuggyWhipChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A05ADE213BADABC0080AAD4 /* BuggyWhipChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A05ADFB13BADABC0080AAD4 /* Build configuration list for PBXNativeTarget "BuggyWhipChatTests" */;
+			buildPhases = (
+				1A05ADDE13BADABC0080AAD4 /* Sources */,
+				1A05ADDF13BADABC0080AAD4 /* Frameworks */,
+				1A05ADE013BADABC0080AAD4 /* Resources */,
+				1A05ADE113BADABC0080AAD4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A05ADEB13BADABC0080AAD4 /* PBXTargetDependency */,
+			);
+			name = BuggyWhipChatTests;
+			productName = BuggyWhipChatTests;
+			productReference = 1A05ADE313BADABC0080AAD4 /* BuggyWhipChatTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1A51CFA514671E630032AE08 /* SOAPWeatherService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A51CFAE14671E630032AE08 /* Build configuration list for PBXNativeTarget "SOAPWeatherService" */;
+			buildPhases = (
+				1A51CFA214671E630032AE08 /* Sources */,
+				1A51CFA314671E630032AE08 /* Frameworks */,
+				1A51CFA414671E630032AE08 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOAPWeatherService;
+			productName = SOAPWeatherService;
+			productReference = 1A51CFA614671E630032AE08 /* libSOAPWeatherService.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1A88863C146710B000118E51 /* DDXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A888645146710B000118E51 /* Build configuration list for PBXNativeTarget "DDXML" */;
+			buildPhases = (
+				1A888639146710B000118E51 /* Sources */,
+				1A88863A146710B000118E51 /* Frameworks */,
+				1A88863B146710B000118E51 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDXML;
+			productName = DDXML;
+			productReference = 1A88863D146710B000118E51 /* libDDXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1ACB208F147694E800AB17FD /* BuggyWhipChatUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ACB209E147694E800AB17FD /* Build configuration list for PBXNativeTarget "BuggyWhipChatUnitTests" */;
+			buildPhases = (
+				1ACB208B147694E800AB17FD /* Sources */,
+				1ACB208C147694E800AB17FD /* Frameworks */,
+				1ACB208D147694E800AB17FD /* Resources */,
+				1ACB208E147694E800AB17FD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuggyWhipChatUnitTests;
+			productName = BuggyWhipChatUnitTests;
+			productReference = 1ACB2090147694E800AB17FD /* BuggyWhipChatUnitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A05ADA713BADABB0080AAD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1A05ADAA13BADABB0080AAD4 /* Build configuration list for PBXProject "BuggyWhipChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 1A05ADA513BADABB0080AAD4;
+			productRefGroup = 1A05ADB113BADABB0080AAD4 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1ADCFF6C13C132BD00A9AC02 /* Products */;
+					ProjectRef = 1ADCFF6B13C132BD00A9AC02 /* ChatAPI.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1A05ADAF13BADABB0080AAD4 /* BuggyWhipChat */,
+				1A05ADE213BADABC0080AAD4 /* BuggyWhipChatTests */,
+				1A88863C146710B000118E51 /* DDXML */,
+				1A51CFA514671E630032AE08 /* SOAPWeatherService */,
+				1ACB208F147694E800AB17FD /* BuggyWhipChatUnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1ADCFF7113C132BD00A9AC02 /* libChatAPI.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChatAPI.a;
+			remoteRef = 1ADCFF7013C132BD00A9AC02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1ADCFF7313C132BD00A9AC02 /* ChatAPITests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChatAPITests.octest;
+			remoteRef = 1ADCFF7213C132BD00A9AC02 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A05ADAE13BADABB0080AAD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A05ADC113BADABB0080AAD4 /* InfoPlist.strings in Resources */,
+				1A05ADCF13BADABB0080AAD4 /* DetailViewController.h in Resources */,
+				1A05ADD413BADABB0080AAD4 /* RootViewController_iPhone.xib in Resources */,
+				1A05ADD713BADABB0080AAD4 /* RootViewController_iPad.xib in Resources */,
+				1A05ADDA13BADABB0080AAD4 /* DetailViewController_iPhone.xib in Resources */,
+				1A05ADDD13BADABB0080AAD4 /* DetailViewController_iPad.xib in Resources */,
+				1ADCFF8B13C1509000A9AC02 /* ChatChooser.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A05ADE013BADABC0080AAD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A05ADF113BADABC0080AAD4 /* InfoPlist.strings in Resources */,
+				1A05ADF313BADABC0080AAD4 /* BuggyWhipChatTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ACB208D147694E800AB17FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACB2099147694E800AB17FD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A05ADE113BADABC0080AAD4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		1ACB208E147694E800AB17FD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A05ADAC13BADABB0080AAD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A05ADC313BADABB0080AAD4 /* main.m in Sources */,
+				1A05ADC713BADABB0080AAD4 /* BuggyWhipChatAppDelegate.m in Sources */,
+				1A05ADCA13BADABB0080AAD4 /* BuggyWhipChat.xcdatamodeld in Sources */,
+				1A05ADCD13BADABB0080AAD4 /* RootViewController.m in Sources */,
+				1A05ADD113BADABB0080AAD4 /* DetailViewController.m in Sources */,
+				1ADCFF8A13C1509000A9AC02 /* ChatChooser.m in Sources */,
+				1AC88F8713DCF4440001B921 /* WebServiceEndpointGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A05ADDE13BADABC0080AAD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A05ADF513BADABC0080AAD4 /* BuggyWhipChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A51CFA214671E630032AE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A286F7414671FC200EA90FD /* WeatherSvc.m in Sources */,
+				1A286F7514671FC200EA90FD /* NSDate+ISO8601Parsing.m in Sources */,
+				1A286F7614671FC200EA90FD /* NSDate+ISO8601Unparsing.m in Sources */,
+				1A286F7714671FC200EA90FD /* USAdditions.m in Sources */,
+				1A286F7814671FC200EA90FD /* USGlobals.m in Sources */,
+				1A286F7914671FC200EA90FD /* xsd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A888639146710B000118E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A888648146710CA00118E51 /* NSString+DDXML.m in Sources */,
+				1A888649146710CA00118E51 /* DDXMLDocument.m in Sources */,
+				1A88864A146710CA00118E51 /* DDXMLElement.m in Sources */,
+				1A88864B146710CA00118E51 /* DDXMLNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ACB208B147694E800AB17FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ACB20A21476951900AB17FD /* BuggyWhipChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A05ADEB13BADABC0080AAD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A05ADAF13BADABB0080AAD4 /* BuggyWhipChat */;
+			targetProxy = 1A05ADEA13BADABC0080AAD4 /* PBXContainerItemProxy */;
+		};
+		1A51CFB214671EAF0032AE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A51CFA514671E630032AE08 /* SOAPWeatherService */;
+			targetProxy = 1A51CFB114671EAF0032AE08 /* PBXContainerItemProxy */;
+		};
+		1A888650146710E900118E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A88863C146710B000118E51 /* DDXML */;
+			targetProxy = 1A88864F146710E900118E51 /* PBXContainerItemProxy */;
+		};
+		1ADCFF7513C1384B00A9AC02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChatAPI;
+			targetProxy = 1ADCFF7413C1384B00A9AC02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A05ADBF13BADABB0080AAD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A05ADC013BADABB0080AAD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A05ADD213BADABB0080AAD4 /* RootViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A05ADD313BADABB0080AAD4 /* en */,
+			);
+			name = RootViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1A05ADD513BADABB0080AAD4 /* RootViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A05ADD613BADABB0080AAD4 /* en */,
+			);
+			name = RootViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		1A05ADD813BADABB0080AAD4 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A05ADD913BADABB0080AAD4 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1A05ADDB13BADABB0080AAD4 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A05ADDC13BADABB0080AAD4 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		1A05ADEF13BADABC0080AAD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A05ADF013BADABC0080AAD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1ACB2097147694E800AB17FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ACB2098147694E800AB17FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A05ADF613BADABC0080AAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A05ADF913BADABC0080AAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_BUNDLE_IDENTIFIER = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChat/BuggyWhipChat-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "BuggyWhipChat/BuggyWhipChat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A05ADFC13BADABC0080AAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"APPLICATION_BUILD_IDENTIFIER[arch=*]" = "";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuggyWhipChat.app/BuggyWhipChat";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChat/BuggyWhipChat-Prefix.pch";
+				INFOPLIST_FILE = "BuggyWhipChatTests/BuggyWhipChatTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1A51CFAF14671E630032AE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SOAPWeatherService.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOAPWeatherService/SOAPWeatherService-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1A888646146710B000118E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DDXML.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDXML/DDXML-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1ACB209F147694E800AB17FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChatUnitTests/BuggyWhipChatUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "BuggyWhipChatUnitTests/BuggyWhipChatUnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1ACB20A814769E5600AB17FD /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Enterprise;
+		};
+		1ACB20A914769E5600AB17FD /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_BUNDLE_IDENTIFIER = biz.blackbear.buggywhipchatent;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChat/BuggyWhipChat-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "BuggyWhipChat/BuggyWhipChat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Enterprise;
+		};
+		1ACB20AA14769E5600AB17FD /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuggyWhipChat.app/BuggyWhipChat";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChat/BuggyWhipChat-Prefix.pch";
+				INFOPLIST_FILE = "BuggyWhipChatTests/BuggyWhipChatTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Enterprise;
+		};
+		1ACB20AB14769E5600AB17FD /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DDXML.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDXML/DDXML-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Enterprise;
+		};
+		1ACB20AC14769E5600AB17FD /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SOAPWeatherService.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOAPWeatherService/SOAPWeatherService-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Enterprise;
+		};
+		1ACB20AD14769E5600AB17FD /* Enterprise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChatUnitTests/BuggyWhipChatUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "BuggyWhipChatUnitTests/BuggyWhipChatUnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Enterprise;
+		};
+		1ACB20AE14769E5C00AB17FD /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "App Store";
+		};
+		1ACB20AF14769E5C00AB17FD /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_BUNDLE_IDENTIFIER = biz.blackbear.buggywhipchat;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChat/BuggyWhipChat-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "BuggyWhipChat/BuggyWhipChat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "App Store";
+		};
+		1ACB20B014769E5C00AB17FD /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BuggyWhipChat.app/BuggyWhipChat";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChat/BuggyWhipChat-Prefix.pch";
+				INFOPLIST_FILE = "BuggyWhipChatTests/BuggyWhipChatTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = "App Store";
+		};
+		1ACB20B114769E5C00AB17FD /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DDXML.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDXML/DDXML-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = "App Store";
+		};
+		1ACB20B214769E5C00AB17FD /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SOAPWeatherService.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOAPWeatherService/SOAPWeatherService-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = "App Store";
+		};
+		1ACB20B314769E5C00AB17FD /* App Store */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BuggyWhipChatUnitTests/BuggyWhipChatUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "BuggyWhipChatUnitTests/BuggyWhipChatUnitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = "App Store";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A05ADAA13BADABB0080AAD4 /* Build configuration list for PBXProject "BuggyWhipChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A05ADF613BADABC0080AAD4 /* Debug */,
+				1ACB20A814769E5600AB17FD /* Enterprise */,
+				1ACB20AE14769E5C00AB17FD /* App Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1A05ADF813BADABC0080AAD4 /* Build configuration list for PBXNativeTarget "BuggyWhipChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A05ADF913BADABC0080AAD4 /* Debug */,
+				1ACB20A914769E5600AB17FD /* Enterprise */,
+				1ACB20AF14769E5C00AB17FD /* App Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1A05ADFB13BADABC0080AAD4 /* Build configuration list for PBXNativeTarget "BuggyWhipChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A05ADFC13BADABC0080AAD4 /* Debug */,
+				1ACB20AA14769E5600AB17FD /* Enterprise */,
+				1ACB20B014769E5C00AB17FD /* App Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1A51CFAE14671E630032AE08 /* Build configuration list for PBXNativeTarget "SOAPWeatherService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A51CFAF14671E630032AE08 /* Debug */,
+				1ACB20AC14769E5600AB17FD /* Enterprise */,
+				1ACB20B214769E5C00AB17FD /* App Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1A888645146710B000118E51 /* Build configuration list for PBXNativeTarget "DDXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A888646146710B000118E51 /* Debug */,
+				1ACB20AB14769E5600AB17FD /* Enterprise */,
+				1ACB20B114769E5C00AB17FD /* App Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1ACB209E147694E800AB17FD /* Build configuration list for PBXNativeTarget "BuggyWhipChatUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ACB209F147694E800AB17FD /* Debug */,
+				1ACB20AD14769E5600AB17FD /* Enterprise */,
+				1ACB20B314769E5C00AB17FD /* App Store */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A05ADC813BADABB0080AAD4 /* BuggyWhipChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A05ADC913BADABB0080AAD4 /* BuggyWhipChat.xcdatamodel */,
+			);
+			currentVersion = 1A05ADC913BADABB0080AAD4 /* BuggyWhipChat.xcdatamodel */;
+			path = BuggyWhipChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A05ADA713BADABB0080AAD4 /* Project object */;
+}
